@@ -1,14 +1,14 @@
-.worldbuilding {
+.fonts-of-power {
   /* Sheet Tabs */
   /* Items List */
   /* Attributes */
 }
-.worldbuilding .window-content {
+.fonts-of-power .window-content {
   height: 100%;
   padding: 5px;
   overflow-y: hidden;
 }
-.worldbuilding .sheet-header {
+.fonts-of-power .sheet-header {
   height: 100px;
   overflow: hidden;
   display: flex;
@@ -17,123 +17,88 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
-.worldbuilding .sheet-header .profile-img {
+.fonts-of-power .sheet-header .profile-img {
   flex: 0 0 100px;
   height: 100px;
   margin-right: 10px;
 }
-.worldbuilding .sheet-header .header-fields {
+.fonts-of-power .sheet-header .header-fields {
   flex: 1;
   height: 100px;
 }
-.worldbuilding .sheet-header h1.charname {
+.fonts-of-power .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
-.worldbuilding .sheet-header h1.charname input {
+.fonts-of-power .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-.worldbuilding .resource {
+.fonts-of-power .resource {
   width: 50%;
   height: 40px;
   margin-top: 10px;
   float: left;
   text-align: center;
 }
-.worldbuilding .resource input {
+.fonts-of-power .resource input {
   width: 100px;
   height: 28px;
 }
-.worldbuilding .tabs {
+.fonts-of-power .tabs {
   height: 40px;
   border-top: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
 }
-.worldbuilding .tabs .item {
+.fonts-of-power .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
-.worldbuilding .tabs .item.active {
+.fonts-of-power .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
-.worldbuilding .sheet-body {
+.fonts-of-power .sheet-body {
   overflow: hidden;
 }
-.worldbuilding .sheet-body .tab {
+.fonts-of-power .sheet-body .tab {
   height: 100%;
   overflow-y: auto;
 }
-.worldbuilding .editor,
-.worldbuilding .editor-content {
+.fonts-of-power .editor,
+.fonts-of-power .editor-content {
   height: 100%;
 }
-.worldbuilding .item-list {
+.fonts-of-power .item-list {
   list-style: none;
   margin: 7px 0;
   padding: 0;
   overflow-y: auto;
 }
-.worldbuilding .item-list .item {
+.fonts-of-power .item-list .item {
   height: 30px;
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #bbb;
 }
-.worldbuilding .item-list .item img {
+.fonts-of-power .item-list .item img {
   flex: 0 0 24px;
   margin-right: 5px;
 }
-.worldbuilding .item-list .item-name {
+.fonts-of-power .item-list .item-name {
   margin: 0;
 }
-.worldbuilding .item-list .item-controls {
+.fonts-of-power .item-list .item-controls {
   flex: 0 0 36px;
 }
-.worldbuilding .attributes-header {
-  padding: 5px;
-  margin: 5px 0;
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid #aaa;
-  border-radius: 2px;
-  text-align: center;
-  font-weight: bold;
-}
-.worldbuilding .attributes-header .attribute-label {
-  flex: 1.5;
-}
-.worldbuilding .attributes-header .attribute-control {
-  flex: 0 0 20px;
-}
-.worldbuilding .attributes-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.worldbuilding .attributes-list li > * {
-  margin: 0 3px;
-  height: 28px;
-  line-height: 24px;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid #aaa;
-}
-.worldbuilding .attributes-list a.attribute-control {
-  flex: 0 0 20px;
-  text-align: center;
-  line-height: 28px;
-  border: none;
-}
-.worldbuilding.sheet.actor {
+.fonts-of-power.sheet.actor {
   min-width: 560px;
   min-height: 420px;
 }
-.worldbuilding.sheet.item {
+.fonts-of-power.sheet.item {
   min-width: 460px;
   min-height: 400px;
 }

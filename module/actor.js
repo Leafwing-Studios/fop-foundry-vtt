@@ -6,15 +6,7 @@ export class SimpleActor extends Actor {
   /** @override */
   getRollData() {
     const data = super.getRollData();
-    const shorthand = game.settings.get("worldbuilding", "macroShorthand");
-
-    // Re-map all attributes onto the base roll data
-    if (!!shorthand) {
-      for (let [k, v] of Object.entries(data.attributes)) {
-        if (!(k in data)) data[k] = v.value;
-      }
-      delete data.attributes;
-    }
+    const shorthand = game.settings.get("fonts-of-power", "macroShorthand");
 
     // Map all items data using their slugified names
     data.items = this.data.items.reduce((obj, i) => {
