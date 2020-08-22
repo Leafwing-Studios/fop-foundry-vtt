@@ -4,7 +4,7 @@
   "description": "An optimistic steampunk-fantasy d20 system focused on tactical combat and narrative momentum.",
   "version": 0.01,
   "minimumCoreVersion": "0.5.6",
-  "compatibleCoreVersion": "0.5.7",
+  "compatibleCoreVersion": "0.6.5",
   "templateVersion": 2,
   "author": "Alice Cecile",
   "esmodules": ["module/simple.js"],
